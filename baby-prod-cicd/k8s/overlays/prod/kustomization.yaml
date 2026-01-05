@@ -6,4 +6,8 @@ resources:
   - ../../base
   - ingress.yaml
 
+patchesStrategicMerge:
+  - rollout-patch.yaml
+
 namespace: prod
+
