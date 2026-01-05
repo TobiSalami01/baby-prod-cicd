@@ -1,0 +1,12 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  name: babyapp
+spec:
+  template:
+    spec:
+      containers:
+        - name: babyapp
+          image: ghcr.io/tobisalami01/babyapp:v3
+          imagePullPolicy: Always
+

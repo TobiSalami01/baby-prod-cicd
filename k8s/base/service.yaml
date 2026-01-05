@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: babyapp
+  namespace: staging
+spec:
+  selector:
+    app: babyapp
+  ports:
+    - port: 80
+      targetPort: 8080
+
