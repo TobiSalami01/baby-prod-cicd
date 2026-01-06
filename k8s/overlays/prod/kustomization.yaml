@@ -11,3 +11,7 @@ patchesStrategicMerge:
 
 namespace: prod
 
+images:
+  - name: babyapp
+    newTag: v3
+

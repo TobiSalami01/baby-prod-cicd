@@ -7,6 +7,12 @@ spec:
     spec:
       containers:
         - name: babyapp
-          image: ghcr.io/tobisalami01/babyapp:v3
-          imagePullPolicy: Always
+          image: babyapp:v3
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: APP_VERSION
+              value: "v3"
+
+
+          
 

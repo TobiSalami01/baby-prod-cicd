@@ -1,7 +1,18 @@
+# Python
 .venv/
 __pycache__/
 *.pyc
-.DS_Store
-.pytest_cache/
-.env
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
 
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# Kubernetes local artifacts
+*.tmp
